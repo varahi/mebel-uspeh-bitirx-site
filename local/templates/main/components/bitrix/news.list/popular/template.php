@@ -8,11 +8,13 @@ $this->setFrameMode(true);
     <?php foreach ($arResult["ITEMS"] as $item): ?>
 
         <?php
-        $img = $item["PREVIEW_PICTURE"]
-            ? CFile::GetPath($item["PREVIEW_PICTURE"])
-            : '/local/templates/main/assets/no-image.png';
+        $img = !empty($item["PREVIEW_PICTURE"]["SRC"])
+                ? $item["PREVIEW_PICTURE"]["SRC"]
+                : '/local/templates/main/assets/no-image.png';
 
         $price = $item["PROPERTIES"]["PRICE"]["VALUE"];
+
+        //print_r($item);
         ?>
 
         <div class="popular-product">
