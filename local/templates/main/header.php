@@ -29,20 +29,7 @@ Asset::getInstance()->addString('<link href="https://fonts.googleapis.com/css2?f
 </head>
 <body>
 <div id="panel"><?$APPLICATION->ShowPanel();?></div>
-
-<?php //include_once __DIR__ . '/partials/header/top_menu.php'; ?>
-
-
-
-<!--<section id="hit_prodaj">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <h2 class="title">ХИТ ПРОДАЖ</h2>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+<?php include_once __DIR__ . '/partials/header/top_menu.php'; ?>
 
 
 

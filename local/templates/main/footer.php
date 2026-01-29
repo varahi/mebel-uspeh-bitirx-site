@@ -1,6 +1,6 @@
 <?php if ( ! defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die(); ?>
+<?php include_once __DIR__ . '/partials/sidebar/sidebar.php'; ?>
 <section id="footer">
-
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -16,7 +16,6 @@
             </div>
         </div>
     </div>
-
 </section>
 <?php
 //$templatePath = SITE_TEMPLATE_PATH;
