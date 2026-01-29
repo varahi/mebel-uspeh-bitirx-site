@@ -1,29 +1,28 @@
 <div class="f_catalog">
     <h3>Каталог</h3>
-
     <ul>
         <li>
             <a href="">Хиты продаж</a>
         </li>
 
         <li>
-            <a href="">Кухни</a>
+            <a href="/catalog/kuhni/">Кухни</a>
         </li>
 
         <li>
-            <a href="">Диваны</a>
+            <a href="/catalog/myakgay-mebel/">Диваны</a>
         </li>
 
         <li>
-            <a href="">Корпусная мебель</a>
+            <a href="/catalog/ofisnaya-mebel/">Корпусная мебель</a>
         </li>
 
         <li>
-            <a href="">Офисная мебель</a>
+            <a href="/catalog/ofisnaya-mebel/">Офисная мебель</a>
         </li>
 
         <li>
-            <a href="">Прочее</a>
+            <a href="/catalog/tovary-dlya-doma/">Прочее</a>
         </li>
     </ul>
 </div>
